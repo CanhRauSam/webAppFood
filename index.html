@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind WebFood</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="https://cdn-tailwindcss.vercel.app/?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/app.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- container -->
+        <div class="container mx-auto px-4 ">
+            <nav class="flex justify-between items-center py-5">
+                <!-- logo -->
+                <div class="w-32 md:w-full z-20">
+                    <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/logo.png?raw=true"
+                        alt="logo">
+                </div>
+                <!-- links -->
+                <ul id="menu"
+                    class="invisible md:visible fixed top-0 left-0 w-full z-20 xl:w-2/5 h-screen flex flex-col justify-center items-center bg-black bg-opacity-60 md:bg-transparent md:h-auto md:flex-row md:justify-between md:static md:px-6">
+                    <li
+                        class="my-6 md:m-0 text-white md:text-black text-2xl md:text-lg font-semibold md:font-medium hover:text-red-500 transition ducation-500 ease-in">
+                        <a href="#">Home</a>
+                    </li>
+                    <li
+                        class="my-6 md:m-0 text-white md:text-black text-2xl md:text-lg font-semibold md:font-medium hover:text-red-500 transition ducation-500 ease-in">
+                        <a href="#">Products</a>
+                    </li>
+                    <li
+                        class="my-6 md:m-0 text-white md:text-black text-2xl md:text-lg font-semibold md:font-medium hover:text-red-500 transition ducation-500 ease-in">
+                        <a href="#">F&Q</a>
+                    </li>
+                    <li
+                        class="my-6 md:m-0 text-white md:text-black text-2xl md:text-lg font-semibold md:font-medium hover:text-red-500 transition ducation-500 ease-in">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- btn menu -->
+                <div class="z-20 md:hidden block cursor-pointer" id="menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="menuBtnWhite" class="h-7 w-7" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- banner -->
+    <section>
+        <div class="w-full h-[620px] bg-no-repeat bg-cover relative"
+            style="background-image: url(https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/banner.png?raw=true);">
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-3/4 text-center text-white  z-[5]">
+                <!-- tag -->
+                <p class="mb-[20px] text-[#ffa400]">Food app</p>
+                <!-- title -->
+                <h1 class="mx-auto text-3xl font-bold max-w-2xl md:leading-relaxed md:text-5xl mb-4">Why stay hungry
+                    when you
+                    can
+                    order from Bella Onojie</h1>
+                <!-- decs -->
+                <p class="text-[16px] font-light mb-[20px]">Download the bella onoje's food app now on</p>
+                <!-- btn -->
+                <div class="flex justify-center">
+                    <button
+                        class="mx-3 border border-transparent px-[15px] py-[7px] bg-red-500 text-[16px] rounded-full hover:bg-transparent hover:border-white transition-all duration-300 cursor-pointer">PlayStore</button>
+                    <button
+                        class="mx-3 border hover:border-transparent px-[15px] py-[7px] hover:bg-red-500 text-[16px] rounded-full bg-transparent :border-white transition-all duration-300 cursor-pointer">AppStore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App images -->
+    <section class="relative">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-2/3 -translate-y-1/4">
+            <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/app-img.png?raw=true"
+                alt="app-img" class="max-w-none w-screen pl-20 md:w-auto">
+        </div>
+    </section>
+    <!-- app Steps -->
+    <section class="sm:pt-50 sm:pt-[40rem] md:mt-0 pt-96">
+        <!-- container -->
+        <div class="container mx-auto px-4">
+            <hr class="w-4/5 mx-auto h-0.5 bg-yellow-200 md:w-2/5">
+            <!-- title  -->
+            <h2 class="text-center text-4xl font-semibold my-10">How the app works</h2>
+            <!-- step1 -->
+            <div class="flex flex-col justify-center items-center md:flex-row">
+                <!-- image -->
+                <div class="mb-10 text-center">
+                    <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/app-1.png?raw=true"
+                        alt="app-screen" srcset="">
+                </div>
+                <!-- text -->
+                <div class="text-center md:text-left md:ml-24">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold">Create an account</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-500 font-bold max-w-md leading-relaxed py-5">Create/login to an
+                        existing account to get the started</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <!-- step2 -->
+            <div class="flex flex-col justify-center items-center md:flex-row-reverse">
+                <!-- image -->
+                <div class="mb-10 text-center">
+                    <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/app-2.png?raw=true"
+                        alt="app-screen" srcset="">
+                </div>
+                <!-- text -->
+                <div class="text-center md:text-left md:mr-24">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold">Create an account</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-500 font-bold max-w-md leading-relaxed py-5">Create/login to an
+                        existing account to get the started</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <!-- step3 -->
+            <div class="flex flex-col justify-center items-center md:flex-row">
+                <!-- image -->
+                <div class="mb-10 text-center">
+                    <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/app-3.png?raw=true"
+                        alt="app-screen" srcset="">
+                </div>
+                <!-- text -->
+                <div class="text-center md:text-left md:ml-24">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold">Create an account</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-500 font-bold max-w-md leading-relaxed py-5">Create/login to an
+                        existing account to get the started</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- download -->
+    <section>
+        <!-- background -->
+        <div class="relative w-full h-[620px] bg-no-repeat bg-cover"
+            style="background-image: url(https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/download.png?raw=true);">
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-3/4">
+                <!-- title -->
+                <h1 class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl w-full mx-auto">Download
+                    the app now
+                </h1>
+                <!-- desc -->
+                <p class="text-xl mb-5 font-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <!-- btn -->
+                <div class="flex justify-center">
+                    <button
+                        class="mx-3 border border-transparent px-[15px] py-[7px] bg-red-500 text-[16px] rounded-full hover:bg-transparent hover:border-white transition-all duration-300 cursor-pointer">PlayStore</button>
+                    <button
+                        class="mx-3 border hover:border-transparent px-[15px] py-[7px] hover:bg-red-500 text-[16px] rounded-full bg-transparent :border-white transition-all duration-300 cursor-pointer">AppStore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section>
+        <!-- container -->
+        <div class="container mx-auto px-4 ">
+            <div class="flex flex-col justify-between items-center md:flex-row py-5">
+                <!-- logo -->
+                <div class="w-32 md:w-full ">
+                    <img src="https://github.com/PASSIONCORNERS/tailwind_vn/blob/main/public/img/logo.png?raw=true"
+                        alt="logo">
+                </div>
+                <!-- contact -->
+                <div class="flex iteams-center my-5 text-gray-500 w-full justify-center md:justify-end">
+                    <!-- phone -->
+                    <a class="flex mr-2" href="tel:0123456798">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path
+                                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                        </svg>
+                        <!-- number -->
+                        <p>+0123 456 789</p>
+                    </a>
+                    <!-- email -->
+                    <a class="flex" href="mailto:info@gmail.com">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <!-- address -->
+                        <p>info@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+            <!-- copy -->
+            <div class="text-center mb-4 text-gray-500">
+                <p>Copy &copy;2021 Bella Onojie</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- main.js -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
