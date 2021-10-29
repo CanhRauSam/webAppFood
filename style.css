@@ -1,6 +1,6 @@
 /* ./your-css-folder/styles.css */
 
-/* ! tailwindcss v2.2.18 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -608,6 +608,9 @@ video {
   --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-border-opacity: 1;
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
 }
 
 .container {
@@ -721,6 +724,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-\[77px\] {
+  margin-top: 77px;
+}
+
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -751,6 +758,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[77px\] {
+  height: 77px;
 }
 
 .h-screen {
@@ -893,6 +904,11 @@ video {
   border-color: transparent;
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -939,14 +955,19 @@ video {
   padding-right: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-\[7px\] {
   padding-top: 7px;
   padding-bottom: 7px;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pt-12 {
@@ -1054,6 +1075,11 @@ video {
   color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .transition {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1128,6 +1154,10 @@ video {
     margin-right: 0px;
   }
 
+  .md\:mt-\[102px\] {
+    margin-top: 102px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1142,6 +1172,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[102px\] {
+    height: 102px;
   }
 
   .md\:h-auto {
@@ -1178,6 +1212,11 @@ video {
 
   .md\:bg-transparent {
     background-color: transparent;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:px-6 {
